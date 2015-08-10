@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Test on Devices</title>
+
+    <meta name="description" content="Device Testing">
+    <meta name="author" content="Priyanka">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/devicepreview.css" id="theme">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <script src="js/jquery-1.11.0.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-state="someclass">
+                <h1><br></h1>
+                <h1>DEVICE TESTING</h1>
+                <img class="leftDevice" src="img/FIRST/Left_Device.png" alt="">
+                <img class="rightDevice" src="img/FIRST/Right_Devices.png" alt="">
+                <div>
+                </div>
+            </section>
+            
+            <section>
+            <section>
+                <h2>EMULATORS</h2>
+            </section>
+                <section>
+                    <h2>CHROME DEV TOOLS</h2>
+                    <ul style="margin-left: 20%;">
+                        <li>Device Presets- screen size, DPR, User Agent</li>
+                        <li>Network connectivity</li>
+                        <li>Sensors- Touch screens, accelerometer and geolocation</li>
+                    </ul>
+                                    </section>
+                <section>
+                    <h2>FIREFOX</h2>
+                </section>
+                <section>
+                    <h2>SAFARI</h2>
+                </section>
+            </section>
+            <section>
+               <section>
+                <h2>LIMITATIONS</h2>
+                <ul style="margin-left: 10%;">
+                    <li class="fragment">Hardware: CPU, GPU, Battery, can't be emulated</li>
+                    <li class="fragment">Performance issues due to various reasons</li>
+                    <li class="fragment">User Interactions: Device display for form elements can't be seen</li>
+                    <li class="fragment">General Display: address bar</li>
+                    <li class="fragment">Color Profile</li>
+<!--                    <li class="fragment">It is still good to use emulators to get greater coverage</li>-->
+                </ul>
+                </section>
+                <section>
+<!--                   <div>-->
+                    <img class="leftDevice" src="img/device/emulator1.jpg" alt="">
+<!--                    </div>-->
+                    <img class="rightDevice" src="img/device/iphone2.jpg" alt="">
+                    <ul style="margin-left:0">
+                        <li style="margin-left: 5%; display: inline;">Chrome Emulator</li>
+                        <li style="display: inline;margin-left: 50%;">iPhone</li>
+                    </ul>
+<!--                    <span>Chrome Emulator</span>-->
+<!--                    <span>iPhone</span>-->
+                </section>
+            </section>
+               <section>
+                   <h4>ADOBE SOLUTIONS</h4>
+               </section>
+               
+               <section>
+                  <section>
+                   <h2>DEVICE CENTRAL</h2>
+                      <img width="80%" src="img/device/devicecentral.PNG" alt="">
+                      </section>
+                      <section>
+                          <ul>
+                              <li>Emulator with about 200 devices in its repository</li>
+                              <li>Opera's Small Screen Rendering</li>
+                              <li>Supports content from DW, AI, FW, PS and FL</li>
+                              <li>Automation</li>
+                          </ul>
+                          
+                      </section>
+                      <section>
+                         <h2>LIMITATIONS</h2>
+                          <ul>
+                              <li>Emulator</li>
+                              <li>Up-to-date</li>
+                          </ul>
+                      </section>
+               </section>
+                  <section>
+                   <section>
+                   <h2><a href="https://creative.adobe.com/products/inspect">EDGE INSPECT</a></h2>
+                      <img width="10%" src="img/device/inspect_icon.png" alt="">
+               </section>
+                   <section>
+                     <h4>Install, Connect and Preview</h4>
+                      <img width="80%" src="img/device/edgeinspect01.jpg" alt="">
+                   </section>
+               <section>
+                     <h4>Inspect with Weinre</h4>
+                      <img width="80%" src="img/device/edgeinspect2.jpg" alt="">
+                   </section>
+                    <section>
+                    <h4>Advantages</h4>
+                     <ul>
+                         <li>Screenshots</li>
+                         <li>Device Sleep</li>
+                     </ul>
+                          
+                   </section>
+                   <section>
+                    <h4>LIMITATIONS</h4>
+                     <ul>
+                         <li>Not Native Browser</li>
+                         <li>Multiple installations</li>
+                     </ul>
+                      <img width="80%" src="img/device/edgeinspect1.jpg" alt="">
+                   </section>
+                   <section>
+                       <img width="50%" src="img/device/edgeinspect0.png" alt="">
+                   </section>
+               </section>
+               <section>
+                  <section>
+                   <h2>SYNC PREVIEW</h2>
+                   <span>Browser-based solution</span>
+                   </section>
+                   <section>
+                     <h4>Log into browsers for testing</h4>
+                      <img width="80%" src="img/device/syncpreview1.png" alt="">
+                   </section>
+                <section>
+                     <h4>Use the same ID on all the devices</h4>
+                      <img width="33%" src="img/device/syncpreview2.png" alt="">
+                   </section>
+                     <section>
+                     <h4>Enter URL</h4>
+                      <img src="img/device/syncpreview3.png" alt="">
+                   </section>
+                    <section>
+                     <h4>Preview</h4>
+                      <img src="img/device/preview3.jpg" alt="">
+                   </section>
+                     <section>
+                     <h4>Device Highlight</h4>
+                      <img src="img/device/preview4.jpg" alt="">
+                   </section>
+                    <section>
+                     <h4>Inspect using Weinre</h4>
+                      <img src="img/device/preview5.jpg" alt="">
+                   </section>
+                     <section>
+                     <h4>Synchronous Scrolling</h4>
+                      <img src="img/device/syncpreview6.jpg" alt="">
+                   </section>
+                   <section>
+                       <h4>What next?</h4>
+                       <span>Integration with Code Editors</span>
+                   </section>
+               </section>
+               <section>
+                  <section>
+                   <h2>BRACKETS</h2>
+                   </section>
+                   <section>
+                     <iframe src="https://player.vimeo.com/video/126250951?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!--
+                       <video controls="controls" width="800" height="600" name="Video Name" src="videos/brackets.mov"></video>
+                       <embed src="videos/brackets.mov" qtsrc="rtsp://realmedia.uic.edu/itl/ecampb5/demo_broad.mov" width="320" height="256" autoplay="true" loop="false" controller="true" pluginspage="http://www.apple.com/quicktime/"></embed>
+-->
+                   </section>
+               </section>
+                 <section>
+                  <section>
+                   <h2>DREAMWEAVER</h2>
+                      <img src="img/device/1%20.jpg" alt="">
+                   </section>
+                   <section>
+                    <h4>1. Connect</h4>
+                      <img src="img/device/Slide-3a.png" alt="">
+                   </section>
+                      <section>
+                      <h4>2. Preview</h4>
+                      <img src="img/device/Slide%205.png" alt="">
+                   </section>
+                      <section>
+                       <h4>3. Synchronous Scroll</h4>
+                      <img src="img/device/sLIDE-14%20(1).png" alt="">
+                   </section>
+                      <section>
+                       <ul>
+                           <li>Testing server is updated automatically</li>
+                           <li>Live Edits</li>
+                       </ul>
+                   </section>
+                   <section>
+                   <iframe src="https://player.vimeo.com/video/126251478?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!--                       <video controls="controls" width="800" height="600" name="Video Name" src="videos/DWWorkflow_final.mov"></video>-->
+<!--                       <embed src="videos/brackets.mov" qtsrc="rtsp://realmedia.uic.edu/itl/ecampb5/demo_broad.mov" width="320" height="256" autoplay="true" loop="false" controller="true" pluginspage="http://www.apple.com/quicktime/"></embed>-->
+
+                       
+                   </section>
+               </section>
+               <section>
+                  <section>
+                   <h2>PHOTOSHOP</h2>
+                   <ul>
+                       <li>Preview Designs - Layer Comps</li>
+                       <li>Color Profile</li>
+                   </ul>
+                   </section>
+                   <section>
+                   <iframe src="https://player.vimeo.com/video/126251479?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                   </section>
+                   </section>
+               <section>
+                  <h4>References</h4>
+                   <ul>
+                       <li><a href="https://twitter.com/starting_points/status/470612456381743104/photo/1">Edge Inspect Setup at Starting Points</a></li>
+                       <li><a href="https://adobe.com">Adobe</a></li>
+                   </ul>
+               </section>
+               <section>
+                   <span>priyankaherur.com</span>
+               </section>
+           
+        </div>
+    </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+            // Full list of configuration options available here:
+             // https://github.com/hakimel/reveal.js#configuration
+            
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    {
+                        src: 'lib/js/classList.js',
+                        condition: function () {
+                            return !document.body.classList;
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/marked.js',
+                        condition: function () {
+                            return !!document.querySelector('[data-markdown]');
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/markdown.js',
+                        condition: function () {
+                            return !!document.querySelector('[data-markdown]');
+                        }
+                    },
+                    {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    },
+                    {
+                        src: 'plugin/zoom-js/zoom.js',
+                        async: true,
+                        condition: function () {
+                            return !!document.body.classList;
+                        }
+                    },
+                    {
+                        src: 'plugin/notes/notes.js',
+                        async: true,
+                        condition: function () {
+                            return !!document.body.classList;
+                        }
+                    }
+    ]
+            });
+           
+        </script>
+
+</body>
+
+</html>

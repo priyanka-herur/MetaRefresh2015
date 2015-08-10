@@ -1,0 +1,166 @@
+ul.contentPointers {
+    margin-left: 40%;
+}
+.reveal .slides section img {
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: transparent;
+}
+/*Adventure icons: Slide 2*/
+
+.reveal .slides section .fragment.demoimage {
+    opacity: 1;
+}
+.fragment.pixelImage {
+    margin-left: -5%;
+}
+.fragment.svgImage {
+    margin-left: 50%;
+}
+.fragment.demoimage {
+    margin-top: 130px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.fragment.demoimage.visible {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    opacity: 0.5;
+}
+/*Slide 4: SVG is..*/
+
+.fragment.stylable {
+    position: absolute;
+    margin: 0 10px 0 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border: 0;
+    opacity: 1;
+}
+.fragment.stylable.visible {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    visibility: visible;
+    opacity: 0.5;
+}
+.fragment.stylable.image1 {
+    margin: -100px 0 0 -100px;
+}
+.fragment.stylable.image2 {
+    margin: 150px 0 0 700px;
+}
+.fragment.stylable.image3 {
+    margin: 140px 0 0 0px;
+}
+.fragment.stylable.image4 {
+    margin: -100px 0 0 700px;
+}
+/*Slide 5*/
+
+.fragment.roll-in.row pre {
+    width: 500px;
+}
+/*Slide 6*/
+
+.fragment.elems {
+    position: absolute;
+    margin: 0 10px 0 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border: 0;
+}
+.fragment.elems.visible {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    visibility: visible;
+    opacity: 0.5;
+}
+/*Slide 7*/
+
+.fragment.styl {
+    position: absolute;
+    margin: -300px 0 0 -600px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border: 0;
+}
+.fragment.styl.visible {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    visibility: visible;
+    opacity: 0.5;
+}
+.fragment.styl1 {
+    position: absolute;
+    margin: 0 10px 0 0;
+    border:0; margin: -350px 0 0 400px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border: 0;
+}
+.fragment.styl1.visible {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    visibility: visible;
+    opacity: 0.5;
+}
+                    .fragment.clipPathImg {
+                        position: absolute;
+                        margin: 0 10px 0 0;
+                        margin: -100px 0 0 60%;
+                        -webkit-transform: scale(0);
+                        transform: scale(1);
+                        border: 0;
+                    }
+                    .fragment.clipPathImg.visible {
+                        -webkit-transform: scale(1);
+                        transform: scale(1);
+                        visibility: visible;
+                        opacity: 0.5;
+                    }
+
+span.headerTextAnim {
+    font-size: 75.96px;
+}
+
+div.cssAnimationSec {
+    margin: -90px 0 0 10px;
+    padding:5%;
+    z-index: 200;
+}
+
+code.codeSize {
+    height: 1200px;
+}
+ .reveal ul {
+ margin-left: 30%;
+     
+    
+ }
+
+html.someclass body {
+    background: -moz-linear-gradient(50% 0% -90deg,rgba(32,172,164,0.9) 0%,rgba(32,172,164,0.9) 60%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5) 100%), url('theme/max2013/5exclusive_paper.png'); 
+background: -webkit-linear-gradient(-90deg,rgba(32,172,164,0.9) 0%,rgba(32,172,164,0.9) 60%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5) 100%), url('theme/max2013/5exclusive_paper.png');
+background: -o-linear-gradient(-90deg,rgba(32,172,164,0.9) 0%,rgba(32,172,164,0.9) 60%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.5) 100%), url('theme/max2013/5exclusive_paper.png');
+background: -ms-linear-gradient(-90deg,rgba(32,172,164,0.9) 0%,rgba(32,172,164,0.9) 60%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0.5) 100%), url('theme/max2013/5exclusive_paper.png');
+background: linear-gradient(180deg,rgba(32,172,164,0.9) 0%,rgba(32,172,164,0.9) 60%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0.5) 100%), url('theme/max2013/5exclusive_paper.png');
+     background-repeat: repeat, repeat;
+  background-position: bottom right, center;
+}
+
+.reveal a:not(.image){
+    color: #eee;
+}
+
+ul > li {
+    color: #eee;
+}
+
+img.leftDevice {
+    float:left; width:40%
+}
+img.rightDevice {
+    float:right; width:40%
+}
